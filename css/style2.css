@@ -1,0 +1,300 @@
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.paragrafi1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  box-shadow: 1px 2px 5px lightgray;
+  transition: background-color 0.7s, box-shadow 0.7s;
+}
+/*.paragrafi1:hover {
+  background-color: #eef8ff;
+  box-shadow: 1px 2px 5px lightgray;
+}*/
+.paragrafi1 > h3 {
+  display: flex;
+  color: rgb(167, 167, 167);
+  border: 0.5px solid lightgray;
+  width: 400px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.permbajtja1 {
+  position: relative;
+  width: 50%;
+  height: 1000px;
+  border: 1px solid lightgray;
+  margin: 30px 0 0 150px;
+  align-items: center;
+  justify-content: center;
+}
+.permbajtja1 > h3 {
+  color: gray;
+  text-align: center;
+}
+.paragafi2 {
+  margin-left: 1%;
+}
+.colors {
+  margin-right: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column wrap;
+  padding-top: 50px;
+  margin-left: 1%;
+  height: 160px;
+  width: 98%;
+  border: 1px solid lightgray;
+  overflow: auto;
+}
+.colors h3 {
+  margin: -35px 0 0 15px;
+  position: absolute;
+  color: gray;
+}
+.color1 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+}
+.color1 h4 {
+  text-align: center;
+  margin-top: 40px;
+}
+.color2 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: lightgray;
+}
+.color2 h4 {
+  text-align: center;
+  margin-top: 40px;
+}
+.color3 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: gray;
+}
+.color3 h4 {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+.color4 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: black;
+}
+.color4 h4 {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+.color5 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: darkred;
+}
+.color5 h4 {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+.color6 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: red;
+}
+.color6 h4 {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+.color7 {
+  width: 100px;
+  margin-left: 5px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: rgb(255, 123, 0);
+}
+.color7 h4 {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+.color8 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: rgb(255, 187, 0);
+}
+.color8 h4 {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+.color9 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: rgb(255, 255, 129);
+}
+.color9 h4 {
+  text-align: center;
+  margin-top: 40px;
+}
+.color10 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: yellow;
+}
+.color10 h4 {
+  text-align: center;
+  margin-top: 40px;
+}
+.color11 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: rgb(187, 255, 0);
+}
+.color11 h4 {
+  text-align: center;
+  margin-top: 40px;
+}
+.color12 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: rgb(0, 187, 0);
+}
+.color12 h4 {
+  text-align: center;
+  margin-top: 40px;
+}
+.color13 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: #005819;
+}
+.color13 h4 {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+.color14 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: #5dc97c;
+}
+.color14 h4 {
+  text-align: center;
+  margin-top: 40px;
+}
+.color15 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: #8fffae;
+}
+.color15 h4 {
+  text-align: center;
+  margin-top: 40px;
+}
+.color16 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: rgb(162, 255, 255);
+}
+.color16 h4 {
+  text-align: center;
+  margin-top: 40px;
+}
+.color17 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: rgb(92, 186, 218);
+}
+.color17 h4 {
+  text-align: center;
+  margin-top: 40px;
+}
+.color18 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: rgb(10, 0, 146);
+}
+.color18 h4 {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+.color19 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: rgb(147, 0, 192);
+}
+.color19 h4 {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+.color20 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: rgb(255, 159, 247);
+}
+.color20 h4 {
+  text-align: center;
+  margin-top: 40px;
+}
+.color21 {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  background-color: #b99b73;
+}
+.color21 h4 {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
