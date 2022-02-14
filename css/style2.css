@@ -585,7 +585,7 @@ body {
 .bio {
   margin: 20px;
   width: 500px;
-  height: 500px;
+  height: auto;
   background-color: white;
   padding: 20px;
 }
@@ -599,4 +599,42 @@ body {
   width: 100%;
   height: 70px;
   background-color: white;
+}
+.twitter img{
+  height: 40px;
+  margin-left: 5px;
+}
+.instagram img{
+  height: 30px;
+  margin-top: 5px;
+}
+.f_up{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 25px;
+  background-color: rgb(241, 241, 241);
+}
+.explenation{
+  width: 100%;
+  height: auto;
+  border-top: 3px solid rgb(255, 230, 117);
+  border-bottom: 3px solid rgb(255, 230, 117);
+  background-color: rgb(165, 165, 165);
+  text-align: center;
+  padding-top: 10px;
+}
+.explenation h3{
+  font-size: larger;
+  color: rgb(255, 230, 117);
+  border-bottom:2px solid rgb(255, 230, 117);
+}
+.f_down{
+  width: 95%;
+  text-align: end;
+  height: 40px;
+}
+.f_down h2{
+  color: rgb(68, 68, 68);
+  font-family: Brush Script MT, Brush Script Std, cursive;
 }

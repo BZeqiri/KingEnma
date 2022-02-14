@@ -34,6 +34,28 @@
 /*=======================================================================
 [01] HEADER
 =========================================================================*/
+
+
+
+.discord{
+  cursor: pointer;
+}
+.discord img{
+  width: 25px;
+  margin-top: -4px;
+}
+.opensea{
+  cursor: pointer;
+}
+.opensea img{
+  width: 28px;
+}
+
+
+
+
+
+/*=========================================================================*/
 .header {
   position: absolute;
   left: 0;
@@ -1666,6 +1688,10 @@
 .shareSocial a.pi:hover {
   color: #c9353d;
   border-color: #c9353d;
+}
+.shareSocial a .discord:hover {
+  color: #5900ff;
+  border-color: #5900ff;
 }
 .relatedWorlSec {
   border-bottom: 1px solid #e9e9e9;
